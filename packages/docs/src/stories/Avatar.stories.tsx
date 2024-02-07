@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/joaobenthin.png',
     alt: 'João Benthin',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

@@ -5,23 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.12",
+    "@storybook/addon-a11y": "^7.6.13",
     "@storybook/addon-actions": "^6.5.15",
-    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-essentials": "^7.6.13",
     "@storybook/addon-interactions": "^6.5.15",
     "@storybook/addon-links": "^6.5.15",
-    "@storybook/builder-vite": "^0.3.0",
-    "@storybook/react": "^6.5.15",
+    "@storybook/react": "^7.6.13",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^3.0.1",
     "babel-loader": "^8.3.0",
+    "storybook": "^7.6.13",
     "vite": "^4.0.4"
   },
   "dependencies": {

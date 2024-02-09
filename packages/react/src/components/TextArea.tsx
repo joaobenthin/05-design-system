@@ -25,11 +25,11 @@ export const TextArea = styled('textarea', {
     cursor: 'not-allowed',
   },
 
-  '&:placeholder': {
+  '&::placeholder': {
     color: '$gray400',
   },
 })
 
-export interface TextAreaProps extends ComponentProps<typeof TextArea> {}
+export type TextAreaProps = ComponentProps<typeof TextArea>
 
 TextArea.displayName = 'TextArea'
